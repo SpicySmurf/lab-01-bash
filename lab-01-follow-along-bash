@@ -1,55 +1,75 @@
 Question 1: Open your terminal and start by displaying the current working directory.
 
-Ans 1: Type pwd and press enter
+Ans 1: Type "pwd" and press enter
 
 Question 2: List all files and directories in your current directory.
 
-Ans 2: Type ls and press enter.
+Ans 2: Type "ls" and press enter.
 
 Question 3: Navigate to your home directory.
 
-Ans 3: Type cd~ or cd and press enter
+Ans 3: Type "cd ~" or "cd" and press enter
 
 Question 4: Create a new directory named "documents" in your home directory.
 
-Ans 4:Type mkdir ~/documents and press enter
+Ans 4:Type "mkdir ~/documents" and press enter
 
 Question 5: Change your current directory to the "documents" directory.
 
-Ans 5: Type cd~ or cd and press enter
+Ans 5: Type "cd ~" or "cd" and press enter.
 
 Question 6: Create a new file named "report.txt" in the "documents" directory.
 
-Ans 6: Type touch report.txt and press enter
+Ans 6: Type "touch report.txt" and press enter.
 
 Question 7: Display the contents of the "report.txt" file.
 
-Ans 7: Type cat report.txt and press enter
+Ans 7: Type "cat report.txt" and press enter.
 
 Question 8: Append the text "This is a sample report." to the "report.txt" file.
 
-Ans 8: Type echo "This is a sample report." >> report.txt and press enter
+Ans 8: Type echo ""This is a sample report." >> report.txt" and press enter
 
 Question 9: List all files and directories in the "documents" directory.
 
-Ans 9:Type ls and press enter
+Ans 9:Type "ls" and press enter.
 
 Question 10: Rename the "report.txt" file to "monthly_report.txt" within the "documents" directory.
 
-Ans 10: Type mv report.txt monthly_report.txt and press enter 
+Ans 10: Type "mv report.txt monthly_report.txt" and press enter
 
 Question 12: Move the "monthly_report.txt" file into the "backup" directory.
 
-Ans 12: Type mv monthly_report.txt backup/ and press enter
+Ans 12: Since "backup" directory doesn't exist yet, type "cd" to get back home and then "mkdir backup" to create the "backup" folder in home. Then type "mv documents/monthly_report.txt backup/monthly_report.txt" and press enter.
 
 Question 13: Change your current directory back to your home directory.
 
-Ans 13: Type cd ~ or cd and press enter.
+Ans 13: Type "cd ~" or "cd" and press enter.
 
 Question 14: Display the full path to the "backup" directory.
 
-Ans 14: Type pwd and press enter.
+Ans 14: Type "pwd" and press enter.
 
 Question 15: List all files and directories in the "backup" directory using an absolute path.
 
-Ans 15: Type ls  ~/documents/backup and press enter
+Ans 15: Type "ls home/codespace/backup" and press enter.
+
+Question 16: Delete the "backup" directory and its contents.
+
+Ans 16: Type "rm -r" backup and press enter.
+
+Question 17: Search for all files in your home directory that contain the word "important."
+
+Ans 17: Type "find / -name important" and press enter.
+
+Question 18: Display the first 5 lines of the "monthly_report.txt" file.
+
+Ans 18: monthly_report.txt does not exist anymore (deleted along with "backup" directory in a previous question). Otherwise, type "head 5 monthly_report.txt" and press enter.
+
+Question 19: Count the number of files and directories in your home directory.
+
+Ans 19: Type "ls -1 | wc -l" and press enter.
+
+Question 20: Logout of your current terminal session.
+
+Ans 20: Type "exit" and press enter.
